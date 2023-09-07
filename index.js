@@ -13,8 +13,8 @@ async function getWeatherInfo(city) {
     document.getElementById("cityName").innerHTML = data.name;
     document.getElementById("humidity").innerHTML = data.main.humidity + "%";
     document.getElementById("windSpeed").innerHTML = data.wind.speed + " km/hr";
-    console.log(imageWeatherInfo.toLowerCase());
     document.getElementById("WeatherImage").src = "./images/" + imageWeatherInfo.toLowerCase() + ".png";
+    document.getElementById("mainInfo").style.display = "block";
 }
 searchBtn.addEventListener("click", () => {
     getWeatherInfo(searchBox.value);
