@@ -103,10 +103,12 @@ body{
 
 @media (max-width : 900px) {
     .more-info{
-        padding-top: 100px;
-        flex-direction: column;
+        padding-top: 60px;
         gap: 100px;
         justify-content: space-evenly;
         align-items: center;
+    }
+    .more-info img{
+        width: 70px;
     }
 }
