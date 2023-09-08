@@ -95,6 +95,11 @@ body{
     gap: 25px;
 
 }
+#error h2{
+    text-align: center;
+    font-weight: 300;
+    padding-top: 10px;
+}
 @media (max-width : 1267px) {
     .more-info{
         gap: 300px;
@@ -104,11 +109,47 @@ body{
 @media (max-width : 900px) {
     .more-info{
         padding-top: 60px;
-        gap: 100px;
+        gap: 50px;
         justify-content: space-evenly;
         align-items: center;
     }
     .more-info img{
-        width: 70px;
+        width: 60px;
+    }
+    .Search{
+        gap: 10px;
+    }
+    .Search button{
+        width: 50px;
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width : 550px){
+    .more-info{
+        gap: 20px;
+    }
+}
+
+@media (max-width : 485px){
+    .more-info img{
+        width: 50px;
+    }
+    .more-info{
+        gap: 10px;
+    }
+}
+
+@media (max-width: 449px){
+    .more-info{
+        gap: 5px;
+    }
+    .more-info img{
+        width: 40px;
+    }
+    .more-info h2{
+        font-size: 1.3rem;
     }
 }
